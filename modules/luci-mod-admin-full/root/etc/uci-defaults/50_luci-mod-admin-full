@@ -30,4 +30,6 @@ if [ -n "$(command -v cpuinfo)" ]; then
 		}
 	fi
 fi
+rm -f /usr/lib/lua/luci/view/admin_status/index_x86.htm
+rm -f /usr/lib/lua/luci/view/admin_status/index_arm.htm
 exit 0
